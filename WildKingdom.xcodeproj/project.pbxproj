@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		98ACA0C3199506790036DA8F /* LionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 98ACA0C2199506790036DA8F /* LionsViewController.m */; };
+		98ACA0C6199506860036DA8F /* TigersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 98ACA0C5199506860036DA8F /* TigersViewController.m */; };
+		98ACA0C91995078A0036DA8F /* BearsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 98ACA0C81995078A0036DA8F /* BearsViewController.m */; };
 		98C4EE611994116E00F81A24 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98C4EE601994116E00F81A24 /* Foundation.framework */; };
 		98C4EE631994116E00F81A24 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98C4EE621994116E00F81A24 /* CoreGraphics.framework */; };
 		98C4EE651994116E00F81A24 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98C4EE641994116E00F81A24 /* UIKit.framework */; };
@@ -21,6 +24,7 @@
 		98C4EE821994116E00F81A24 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98C4EE641994116E00F81A24 /* UIKit.framework */; };
 		98C4EE8A1994116E00F81A24 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 98C4EE881994116E00F81A24 /* InfoPlist.strings */; };
 		98C4EE8C1994116E00F81A24 /* WildKingdomTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 98C4EE8B1994116E00F81A24 /* WildKingdomTests.m */; };
+		98C4EE9A1994206C00F81A24 /* CustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 98C4EE991994206C00F81A24 /* CustomCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +38,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		98ACA0C1199506790036DA8F /* LionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LionsViewController.h; sourceTree = "<group>"; };
+		98ACA0C2199506790036DA8F /* LionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LionsViewController.m; sourceTree = "<group>"; };
+		98ACA0C4199506860036DA8F /* TigersViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TigersViewController.h; sourceTree = "<group>"; };
+		98ACA0C5199506860036DA8F /* TigersViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TigersViewController.m; sourceTree = "<group>"; };
+		98ACA0C71995078A0036DA8F /* BearsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BearsViewController.h; sourceTree = "<group>"; };
+		98ACA0C81995078A0036DA8F /* BearsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BearsViewController.m; sourceTree = "<group>"; };
 		98C4EE5D1994116E00F81A24 /* WildKingdom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WildKingdom.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		98C4EE601994116E00F81A24 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		98C4EE621994116E00F81A24 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -53,6 +63,8 @@
 		98C4EE871994116E00F81A24 /* WildKingdomTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WildKingdomTests-Info.plist"; sourceTree = "<group>"; };
 		98C4EE891994116E00F81A24 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		98C4EE8B1994116E00F81A24 /* WildKingdomTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WildKingdomTests.m; sourceTree = "<group>"; };
+		98C4EE981994206C00F81A24 /* CustomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CustomCell.h; path = ../CustomCell.h; sourceTree = "<group>"; };
+		98C4EE991994206C00F81A24 /* CustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CustomCell.m; path = ../CustomCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,8 +127,12 @@
 				98C4EE6F1994116E00F81A24 /* AppDelegate.h */,
 				98C4EE701994116E00F81A24 /* AppDelegate.m */,
 				98C4EE721994116E00F81A24 /* Main.storyboard */,
-				98C4EE751994116E00F81A24 /* ViewController.h */,
 				98C4EE761994116E00F81A24 /* ViewController.m */,
+				98ACA0C2199506790036DA8F /* LionsViewController.m */,
+				98ACA0C5199506860036DA8F /* TigersViewController.m */,
+				98ACA0C81995078A0036DA8F /* BearsViewController.m */,
+				98C4EE981994206C00F81A24 /* CustomCell.h */,
+				98C4EE991994206C00F81A24 /* CustomCell.m */,
 				98C4EE781994116E00F81A24 /* Images.xcassets */,
 				98C4EE671994116E00F81A24 /* Supporting Files */,
 			);
@@ -126,6 +142,10 @@
 		98C4EE671994116E00F81A24 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				98ACA0C1199506790036DA8F /* LionsViewController.h */,
+				98C4EE751994116E00F81A24 /* ViewController.h */,
+				98ACA0C4199506860036DA8F /* TigersViewController.h */,
+				98ACA0C71995078A0036DA8F /* BearsViewController.h */,
 				98C4EE681994116E00F81A24 /* WildKingdom-Info.plist */,
 				98C4EE691994116E00F81A24 /* InfoPlist.strings */,
 				98C4EE6C1994116E00F81A24 /* main.m */,
@@ -249,8 +269,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				98ACA0C91995078A0036DA8F /* BearsViewController.m in Sources */,
 				98C4EE771994116E00F81A24 /* ViewController.m in Sources */,
 				98C4EE711994116E00F81A24 /* AppDelegate.m in Sources */,
+				98ACA0C3199506790036DA8F /* LionsViewController.m in Sources */,
+				98C4EE9A1994206C00F81A24 /* CustomCell.m in Sources */,
+				98ACA0C6199506860036DA8F /* TigersViewController.m in Sources */,
 				98C4EE6D1994116E00F81A24 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -456,6 +480,7 @@
 				98C4EE911994116E00F81A24 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		98C4EE921994116E00F81A24 /* Build configuration list for PBXNativeTarget "WildKingdomTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +489,7 @@
 				98C4EE941994116E00F81A24 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
